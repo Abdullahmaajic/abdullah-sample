@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+
+    <title>Test</title>
+</head>
+
+<body>
+    <!--header start here-->
+    <header>
+        <div class="top_strip">
+            <div class="main-container">
+                <div class="top_icons_left">
+                    <span title="call">Call us :9998993</span>
+                    <span><a href="mailto:info@example.com">info@example.com</a></span>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                <div class="top_icons_right">
+                    <span><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Carrer</a></span>
+                    <span><a href="#">contact Us</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="logo_menu_sec">
+            <div class="main-container">
+            <div class="logo">
+                <a href="#"><img src="images/logo.jpg" class="img-responsive"></a>
+            </div>
+            <div class="menu">
+                <ul class="menu_ul" id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <button class="mobileicon" id="mobileicon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        </div>
+    </header>
+    <!--banner section-->
+    <section>
+       <div class="main-container">
+           <div class="abt_sec">
+            <div class="abt_cnt">
+                <h1><span>WELCOME TO REINDEER</span>We are the world best finance and consultiing</h1>
+                <p>porttitor sodales at, fermentum non nibh. Morbi eu nisi sem. Ut et luctus magna, vitae congue libero. Sed quam massa, euismod in ante vitae, dictum pharetra orci. In a erat ut velit sollicitudin egestas. Proin eu neque porttitor, aliquet leo eu, dignissim dolor. Maecenas in congue tellus, mattis mollis risus. Nunc molestie ligula libero, et volutpat orci eleifend id. Cras vitae consequat metus. Sed dignissim dignissim rhoncus. Cras fermentum bibendum nisi at semper.</p>
+                <div class="project_sec">
+                  <div class="num_sec">
+                   <ul>
+                       <li><span>125</span> projects</li>
+                       <li><span>80</span> customers</li>
+                   </ul>
+                  </div>
+                  <div class="txt_sec">
+                    <ul>
+                        <li><p>porttitor sodales at, fermentum non nibh. Morbi eu nisi sem. Ut et luctus magna, vitae congue libero. Sed quam massa, e</p></li>
+                        <li><p>porttitor sodales at, fermentum non nibh. Morbi eu nisi sem. Ut et luctus magna, vitae congue libero. Sed quam massa, e</p></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="abt_img">
+                <img src="images/welcome_img.jpg" class="img-responsive">
+            </div>
+          </div>
+       </div>
+    </section>
+<script>
+    function mobilemenu() {
+    var menu = document.getElementById("menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+        menu.style.transition = "all 1s linear";
+    } else {
+        menu.style.display = "block";
+    }
+}
+document.getElementById("mobileicon").addEventListener("click", mobilemenu);
+</script>
+</body>
+
+</html>
