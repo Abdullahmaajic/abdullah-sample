@@ -1,1 +1,1 @@
-# abdullah-sample
+# responsive-sample
